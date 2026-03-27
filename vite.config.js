@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "build",
+    cssMinify: "esbuild",
   },
   server: {
     open: true,
